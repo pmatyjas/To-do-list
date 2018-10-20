@@ -1,18 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 23px;
+  letter-spacing: 1px;
 }
 .container {
   background-color: #71A296;
   max-width: 700px;
   width:100%;
-  margin: auto;
+  margin: 100px auto;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
 }
 .task, .button {
   display: flex;
@@ -23,7 +25,7 @@
   border: none;
 }
 .completed {
-  border: 2px solid #FFD619;
+  border: 2px solid #CAF0D0;
 }
 .counter {
   background-color: #526665;
@@ -35,6 +37,9 @@
   justify-content: center;
   align-items: center;
   font-size: 36px;
+  text-transform: capitalize;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
 }
 
 #taskList {
@@ -68,7 +73,7 @@
   box-shadow: 3px 3px 5px 1px #526665;
 }
 .button_delete, .button_complete  {
-  background-color: #FFD619;
+  background-color: #CAF0D0;
 }
 .button_delete:hover, .button_complete:hover {
   -webkit-box-shadow: 3px 3px 5px 1px #63B893;;
